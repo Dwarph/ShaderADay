@@ -50,7 +50,7 @@ Material:
     - Vector1_b79bda19e46d407dbeac7def5f54e9bb: 0.5
     - Vector1_f6242a055e6348a08fc9302e0b672021: 0.834
     m_Colors:
-    - BaseColour: {r: 1, g: 1, b: 1, a: 1}
+    - BaseColour: {r: 0.2509804, g: 0.7647059, b: 0.7490196, a: 1}
     - BottomColour: {r: 0, g: 3.6862748, b: 2.1036856, a: 1}
     - TopColour: {r: 4.298039, g: 0, b: 0.2925367, a: 1}
   m_BuildTextureStacks: []
