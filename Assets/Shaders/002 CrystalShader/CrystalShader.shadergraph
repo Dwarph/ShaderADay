@@ -871,10 +871,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -3038.0,
-            "y": 200.0,
-            "width": 207.99998474121095,
-            "height": 313.9999694824219
+            "x": -3043.0,
+            "y": 200.00003051757813,
+            "width": 208.0,
+            "height": 314.0
         }
     },
     "m_Slots": [
@@ -1402,7 +1402,7 @@
     },
     "m_SurfaceType": 0,
     "m_AlphaMode": 0,
-    "m_TwoSided": false,
+    "m_TwoSided": true,
     "m_AlphaClip": false,
     "m_CustomEditorGUI": ""
 }
@@ -2204,8 +2204,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1679.0,
-            "y": 59.000003814697269,
+            "x": -1558.9998779296875,
+            "y": 47.999996185302737,
             "width": 208.0,
             "height": 326.0
         }
