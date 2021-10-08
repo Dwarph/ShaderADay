@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BC_TextureMaps
-  m_Shader: {fileID: -6465566751694194690, guid: f548ed27b10ca714da94eaa971f35172, type: 3}
+  m_Name: BC_DotProduct_Light
+  m_Shader: {fileID: -6465566751694194690, guid: d982108d8e0e1af4ea51003ec22a6a4c, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -59,22 +59,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_026e45f14a914f4f9ce9402647987217_Texture_1:
-        m_Texture: {fileID: 2800000, guid: d5d9f0257e0998d42b4de00e4dc9f106, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_41a8e1b6ec154230a855e87d51945f82_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 8e13930fd59428e43b22267c30a0e68a, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_8df2951f69a64397907786a3e9d43cec_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 3a2f7e853907d8a45895e62a0cadb7df, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_fc07a1de7f124c7bab295e244a5e2bc4_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 4b5e14fbe7e8fb24783d9b79cd037e36, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -92,7 +76,6 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_d78513cd96c54db1bed0a707d97f804b: 0.1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -125,7 +108,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &3505237884665057385
+--- !u!114 &3455193394835225943
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
