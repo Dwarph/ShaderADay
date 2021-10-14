@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BC_DiffSpaces_MossyRock
-  m_Shader: {fileID: -6465566751694194690, guid: 2fb8e1fb86db79e41a0d618ebc27fdf1, type: 3}
+  m_Name: DeadSpaceship1 1
+  m_Shader: {fileID: -6465566751694194690, guid: db69f4a029651d6479129fb70b204d8d, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -68,7 +68,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_8c7ad5bce4674832adfbf06193335331_Texture_1:
-        m_Texture: {fileID: 2800000, guid: 232f0a97da3c6244bb50ddd6f6dd9e78, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_94b6a47fd6f94f05bc08651be43f01f2_Texture_1:
@@ -96,7 +96,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Boolean_0b0ebf04251147188b67f4f5ad0a5831: 0
+    - Boolean_0b0ebf04251147188b67f4f5ad0a5831: 1
+    - Vector1_2ed076208941440cab44c5deaa06afa7: 0.334
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -124,12 +125,14 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
+    - Color_e1bc15fa6a6d425d9eef3322f27e0787: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+    - Vector2_717f848a06574898bbf050d91ac90bc7: {r: 0.05, g: 0.05, b: 0.05, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &5217453877487715128
+--- !u!114 &650399740701309037
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
