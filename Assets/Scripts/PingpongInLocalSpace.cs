@@ -17,6 +17,6 @@ public class PingpongInLocalSpace : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = Vector3.Lerp(startPos, startPos - LocalSpaceOffset,  Mathf.Abs(Mathf.Sin(Time.time)));
+        transform.position = Vector3.LerpUnclamped(startPos, startPos - LocalSpaceOffset,  Mathf.Sin(Time.time));
     }
 }
